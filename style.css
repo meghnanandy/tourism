@@ -1,0 +1,127 @@
+body {
+    background: linear-gradient(to right,#ff5f6d,#f7b733);
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar-header{
+    background-color:white;
+}
+
+#footer {
+    background: #1b262c;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    color: white;
+}
+
+.private-policy {
+    color: white;
+    float: left;
+    font-size: 15px;
+}
+.copyright {
+    color: white;
+    float: right;
+    font-size: 15px;
+}
+
+section.introduction {
+    width: 100%;
+    padding-bottom: 15px;
+    text-align: justify;
+    padding: 15px 15px;
+    color: #fff;
+    font-size: 18px;
+}
+
+
+.container-fluid {
+    width: 80%;
+    margin-top: 50px;
+}
+
+.col-lg-4 {
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 100%;
+}
+
+.image-wrapper img {
+    width: 100%;
+}
+
+.thumbnail-parent:hover {
+    transform: scale(1.1) !important;
+    color: whitesmoke
+}
+
+.image-wrapper:hover {
+    transform: scale(1.1) !important;
+}
+
+.container p {
+    font-size: 20px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .thumbnail {
+        height: 300px;
+        width: 100%;
+    }
+
+    .mobile-container {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .title-div {
+        font-size: 25px;
+        display: flex;
+    }
+
+    .container-xtr {
+        width: 95%;
+    }
+}
+
+@media only screen and (min-width:600px) {
+    .thumbnail {
+        height: 400px;
+        width: 100%;
+    }
+
+    .mobile-container {
+        width: 80%;
+        margin-left: 12%
+    }
+
+    .title-div {
+        font-size: 40px;
+        ;
+    }
+
+    div#top-post-container p {
+        text-align: justify;
+    }
+
+    div#top-post-container h1 {
+        text-align: justify;
+    }
+}
+
+
+.row-lg-2 button {
+    background: transparent;
+    font-size: 20px;
+    padding: 10px 40px;
+    }
+
+#end-container {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
